@@ -25,3 +25,10 @@ pip install -r requirements.txt
 (venv)powershell:python ./medical.py
 ```
 # 程序解释
+```
+程序启动前，请准备好自己的AIStudio access_token
+启动后，程序会生成本地或者互联网链接，默认开启本地127.0.0.1访问，程序运行后输出框会生成本地访问的链接。
+请在页面对应位置下输入access_token，并在"描述"框中输入信息。
+请在"模型"选项中选择所想使用的模型，目前程序支持调用如下模型
+"ernie-3.5", "ernie-turbo", "ernie-4.0", "ernie-longtext"
+```
